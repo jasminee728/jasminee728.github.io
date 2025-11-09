@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>陳爰潔的個人網頁</title>
+  <style>
+    body {
+      font-family: "微軟正黑體";
+      background-color: #fff8e7;
+      color: #333;
+      text-align: center;
+      margin: 50px;
+    }
+    h1 {
+      color: #d17b0f;
+    }
+    p {
+      font-size: 18px;
+    }
+    button {
+      background-color: #d17b0f;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #b5670c;
+    }
+  </style>
+</head>
+<body>
+  <h1>歡迎來到陳爰潔的網頁 🌸</h1>
+  <p>這是我在 Lab2 建立的 HTML + CSS 頁面。</p>
+  <button onclick="changeText()">點我一下</button>
+  <p id="result"></p>
+
+  <script>
+    function changeText() {
+      document.getElementById("result").innerHTML = "妳太棒了，作業完成啦！🎉";
+    }
+  </script>
+</body>
+</html>
